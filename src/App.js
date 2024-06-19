@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h2>チャット</h2>
+      <h2>チャットです</h2>
       <ChatForm addChat={addChat} />
       <ChatList chats={chats} />
     </div>
